@@ -3,10 +3,7 @@
 import { motion } from "framer-motion";
 
 //internal imports
-import styles from "../styles";
 import { fadeIn } from "../utils/motion";
-import { TypingText, TitleText } from "../components";
-import { insights } from "../constants";
 
 const InsightCard = ({ imgUrl, title, index, subtitle }) => (
   <motion.div
