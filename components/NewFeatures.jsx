@@ -2,9 +2,6 @@ import { motion } from "framer-motion";
 
 //internal imports
 import styles from "../styles";
-import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import { TypingText, TitleText } from "../components";
-import { newFeatures } from "../constants";
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
   <div className="flex-1 flex-col sm:max-w-[250px] min-w-[210px]">
