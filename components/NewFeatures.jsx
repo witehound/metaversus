@@ -1,6 +1,3 @@
-import { motion } from "framer-motion";
-
-//internal imports
 import styles from "../styles";
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
